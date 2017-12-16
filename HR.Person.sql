@@ -1,0 +1,11 @@
+USE HR;
+go
+
+CREATE TABLE Person(
+	Id INT IDENTITY(1,1) PRIMARY KEY NOT NULL,
+	Gender CHAR(1) NULL,
+	Age INT NULL,
+	Picture VARBINARY(MAX) NULL,
+);
+go
+
